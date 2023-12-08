@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/nameEditText"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan nama"
+        android:padding="30dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/buttonButton"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/buttonButton"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/buttonTextView"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+</merge>
